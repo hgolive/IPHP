@@ -1,0 +1,177 @@
+
+/* 
+    Created on : 02/10/2015, 00:40:44
+    Author     : wxcor/Nicolas Dezena :D
+*/
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0; 
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+}
+
+/*Estrutura*/
+.tudo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.menuLateral{
+    position: relative;
+    left: 0;
+    height: 100%;
+    background-color: #36464e;
+    
+    width: 15%;
+    float: left;
+    z-index: 1;
+}
+
+.container {
+    float: left;
+    height: 100%;
+    background-color: rgb(229, 232, 237);
+    width: 85%;
+    right: 0;
+    position: absolute;
+    display: block;
+}
+.centralizar {
+    margin: auto;
+    max-width: 100%;
+    width: 80%;
+    max-height: 64%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.2);
+    -moz-box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.2);
+    box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.2);
+    background-color: #fff;
+    padding: 0px 33px;
+}
+
+footer{
+    position: absolute;
+    background-color: rgb(229, 232, 237);
+    width: 85%;
+    bottom: 0;
+    color: #ccc;
+    text-align: center;
+    float: right;
+    right: 0;
+    padding: 10px 0px;
+}
+
+/*Estilização*/
+.tituloPagina{
+    width: 100%;
+    text-align: center;
+    padding: 2em 0em;
+}
+
+.tituloPagina h1{
+    font-size: 25px;
+    color: #727272;
+
+} 
+
+.caracteristicas{
+    width: 60%;
+     float: left;
+   
+}
+
+.caracteristica{
+    margin: 10px 0px;
+}
+
+
+
+
+
+label{
+    font-size: 1.3em;
+    color: #727272;
+    font-weight: 100;
+}
+
+textarea,input, select{
+     margin-top: 5px;
+    background-color: rgb(229, 232, 237);
+    color: #36464E;
+    font-size: 1em;
+    padding: 1em 1em;
+    width: 95.5%;
+}
+
+textarea:focus, input:focus, select:focus, button:focus/*Tirar a seleção azul*/{
+    box-shadow: 0 0 0 0;
+    border: none;
+    outline: 0;
+}
+
+.nomeProduto{
+   width: 70%;
+    float: left;
+
+}
+
+.categoria{
+    float: left;
+    width: 25%;
+    margin-left: 39px;
+    }
+
+.descricao{
+    width: 100%;
+    float: left;
+}
+
+.imagen{
+    float: left;
+    width: 40%;
+
+}
+
+.imagemProduto {
+background-color: #FFFFFF;
+float: left;
+width: 100%;
+text-align: center;
+height: 16.49vw;
+border: 1px solid #ccc;
+margin-bottom: 48px;
+}
+.valor{
+   width: 44%;
+   
+    float: left;
+}
+.botao{
+    width: 100%;
+    text-align: center;
+    background: #ffc107;
+    padding: 10px;
+    border-radius: 9px;
+    font-size: 20px;
+    cursor: pointer;
+    transition-duration: 1s;}
+
+.botao:hover{
+    background: #CFA321;
+    transition-duration: 1s;
+}

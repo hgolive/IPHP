@@ -1,0 +1,43 @@
+
+/* class com medidas 10 a 90 px*/
+.medida-u1{ width:10px; }
+.medida-u2{ width:20px; }
+.medida-u3{ width:30px; }
+.medida-u4{ width:40px; }
+.medida-u5{ width:50px; }
+.medida-u6{ width:60px; }
+.medida-u7{ width:70px; }
+.medida-u8{ width:80px; }
+.medida-u9{ width:90px; }
+
+/* class com medidas 100 a 900 px*/
+.medida-c1{ width:100px; }
+.medida-c2{ width:200px; }
+.medida-c3{ width:300px; }
+.medida-c4{ width:400px; }
+.medida-c5{ width:500px; }
+.medida-c6{ width:600px; }
+.medida-c7{ width:700px; }
+.medida-c8{ width:800px; }
+.medida-c9{ width:900px; }
+
+
+/* class com medidas 1000 a 1900 px*/
+.medida-m01{ width:1000px; }
+.medida-m1{ width:1100px; }
+.medida-m2{ width:1200px; }
+.medida-m3{ width:1300px; }
+.medida-m4{ width:1400px; }
+.medida-m5{ width:1500px; }
+.medida-m6{ width:1600px; }
+.medida-m7{ width:1700px; }
+.medida-m8{ width:1800px; }
+.medida-m9{ width:1900px; }
+
+
+/* Configurações para inputs label spans */
+
+.centraliza{ margin: 0 auto;}
+
+
+

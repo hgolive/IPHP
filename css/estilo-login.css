@@ -1,0 +1,99 @@
+/*Font Roboto*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,900italic,700italic,900,700,500italic,500,400italic,300italic,300,100italic,100);
+/* tags */
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0px;
+}
+
+
+body{ 
+    background-color: #455A64 !important;
+/*    background-image: url(img/modelo1.jpg);*/
+    background-repeat: no-repeat;
+    min-width: 100vw;
+    min-height: 100vh;
+    position: fixed;
+    -webkit-transition: 3s;
+    -moz-transition: 3s;
+    -ms-transition: 3s;
+    -o-transition: 3s;
+    transition: 3s;
+    transition-duration: 3s;
+    Background-color: #555; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Roboto',;
+
+    
+}
+
+h5{
+    position: relative;
+    left: 27%;
+}
+
+b{
+    color:#000;
+}
+
+
+/*  divs  */
+
+#content-inputs{
+    position:relative;
+    height: 250px;
+    margin-top:18%;
+    background-color: rgba(255,255,255, 0.5);
+    border-radius: 10px;
+}
+
+#divInputs{
+    position: relative;
+    height:auto;
+    top: 20%;
+    left: 1%;
+    margin-left: 13.8%; 
+   
+}
+/* Componetes inputs buttons */
+
+input{
+    padding: 10px; 
+    border-radius: 5px; 
+   background-color:rgba(0,0,0,0.4);
+/*    background-color: #fff;*/
+}
+
+#txtUsuario, #txtPassword{
+    position: relative;
+    margin: 3px;
+    left: 5px;
+    border:0;
+    color: #fff;
+}
+
+#txtPassword:focus, #txtUsuario:focus ,#btnLogin:focus{
+    border: 2.5px solid ;
+    border-color:#FFC107;
+}
+
+#btnLogin{
+    position: relative;
+    top: 10px;
+    left: 17%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 0;
+    margin-bottom: 5%;
+}
+
+/* fonte icon */
+i{
+    font-size: 14pt;
+}
+
