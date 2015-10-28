@@ -1,0 +1,237 @@
+/* 
+    Created on : 02/10/2015, 00:40:44
+    Author     : wxcor/Nicolas Dezena :D
+*/
+
+/* ESTE ARQUIVO E RESPONSALVEL PELO ORIENTÇAO EM MODO MOBILE */
+
+@media only screen and (max-width: 600px) {
+
+	*{
+		margin: 0;
+		padding: 0;
+		border: 0; 
+		font-size: 1em;
+	}
+
+	body{
+		font-family: 'Roboto', sans-serif;
+		margin: 0;
+		padding: 0;
+		top: 0;
+		left: 0;
+		background-color: rgb(229, 232, 237);
+	}
+
+	/*Estrutura*/
+	.tudo{
+		position:relative;
+		width: 100%;
+	/* 	max-width: 320px; */
+		min-width: 320px;
+		min-height: 100%;
+		display: table;
+	}
+
+	
+	/* ESTE MENU SE TORNA NOSSO MENU RESPONSIVO */
+	.menu{
+		position: relative;
+		height: 45px;
+		background-color: #36464e;
+		width: 100%;
+		z-index: 100; 
+	}
+
+	.container {
+		position: relative;
+		height: 100%;
+		width: 96%;
+		min-width: 310px;
+		display: block;
+		margin: 0 auto;
+	}
+	.centralizar {
+		position:relative;
+		
+		-webkit-box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.2);
+		-moz-box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.2);
+		box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.2);
+		padding:  33px;
+		background-color: rgb(255,255,255);
+	}
+
+	footer{
+		position: absolute;
+		background-color: rgb(229, 232, 237);
+		width: 100%;
+		bottom: 0;
+		color: #ccc;
+		text-align: center;
+		right: 0;
+		padding: 10px 0px;
+	}
+
+	footer{
+		position: absolute;
+		background-color: rgb(229, 232, 237);
+		width: 100%;
+		bottom: 0;
+		color: #ccc;
+		text-align: center;
+		right: 0;
+		padding: 10px 0px;
+	}
+
+	/*Estilização*/
+	.tituloPagina{
+		width: 100%;
+		text-align: center;
+		padding: 2em 0em;
+	}
+
+	.tituloPagina h1{
+		font-size: 25px;
+		color: #727272;
+
+	} 
+
+	.col-caracteristica-produto{
+		position: relative;
+		width: 55%;
+		min-width: 310px;
+	        /*margin-right: 5%;*/ 
+	}
+
+	.caracteristica{
+		margin: 1% 0%;
+	}
+
+	label{
+		font-size: 1.1em;
+		color: #727272;
+		font-weight: 100;
+	}
+
+	textarea,input, select{
+		position: relative;
+		margin-top: 1%;
+		background-color: rgb(229, 232, 237);
+		color: #36464E;
+		font-size: 1em;
+		padding: 1em 0 ;
+		width: 100%;
+	}
+
+	textarea:focus, input:focus, select:focus, button:focus/*Tirar a seleção azul*/{
+		box-shadow: 0 0 0 0;
+		border: none;
+		outline: 0;
+	}
+
+	.nomeProduto{
+		width: 90%;
+		min-width: 310px;
+	}
+
+	.categoria{
+		position: relative;
+		width: 40%;
+		min-width: 220px;
+	}
+
+
+	.descricao{
+		width: 90%;
+		min-width: 310px;
+
+	}
+
+	.col-imagen{
+		position: relative;
+		width: 100%;
+		min-height: 300px;
+		min-width: 310px;
+		clear: both;
+
+
+	}
+
+	.imagemProduto {
+		position: relative;
+		background-color: #FFFFFF;
+		width: 100%;
+		min-width: 310px;
+		min-height: 280px;
+		text-align: center;
+		height: 16.49vw;
+		border: 1px solid #ccc;
+		margin-bottom: 48px;
+		margin-top: 6.5%;
+	}
+
+	.imagemProduto img{
+	   width: 50%;
+	}
+
+	.table{
+		display: table;
+		width: 90%;
+
+	}
+
+	.col{
+		position: relative;
+		display: table-cell;
+		width: 50%;
+		margin-left: 15px;
+
+
+
+	}
+
+
+	.valor-col1{
+		position: relative;
+		width: 90%;
+		min-width: 120px; 
+		display: block;
+		margin-left: 5%;
+
+
+	}
+
+	.valor-col2{
+	   width: 90%;
+		min-width: 120px;
+		display: block;
+		margin-left: 5%;
+
+
+	}
+
+	.botao{
+		position: relative;
+		width: 100%;
+		text-align: center;
+		background: #ffc107;
+		padding: 10px;
+		border-radius: 9px;
+		font-size: 20px;
+		cursor: pointer;
+		transition-duration: 1s;
+		margin: 30px auto;
+	}
+
+	.botao:hover{
+		position: relative;
+		background: #CFA321;
+		transition-duration: 1s;
+	}
+	
+}
+
+
+
+
+
